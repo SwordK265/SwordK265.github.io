@@ -1,0 +1,113 @@
+
+.Root {
+    background-color: Grey;
+    width: 1000px;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.Left {
+    width: 30%;
+    background-color: #c1c1c6;
+}
+
+.Right {
+    width: 70%;
+    background-color: #e4e3e3;
+}
+
+#FirstName {
+    margin-top: 75px;
+    margin-left: 45px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+#LastName {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size:32px;
+    font-weight: bold;
+    color: orange;
+}
+
+#Avatar {
+    margin-top: 20px    ;
+    width: 100%;
+    height: 30%;
+}
+
+.Title {
+    margin-top: 25px;
+    margin-left: 45px;
+    font-size:25px;
+    font-weight: bold;
+    color: #353131;
+}
+
+.Title-1 {
+    margin-top:30px;
+    margin-left: 25px;
+    font-size:25px;
+    font-weight: bold;
+    color: #353131; 
+}
+
+#Line {
+    height:2px;
+    background-color: #6d6464;
+    margin-left: 45px;
+    margin-right: 25px;
+}
+
+.Line-1 {
+    height:2px;
+    background-color: #6d6464;
+    margin-left: 25px;
+    margin-right: 60px;
+}
+
+.Detail {
+    margin-left: 45px;
+    color : black;
+}
+.Detail div ul li {
+    margin-top:5px;
+    color : black
+}
+
+.Detail-1 {
+    margin-left: 25px;
+    margin-right:60px;
+    color: black;
+}
+
+.Detail-1 ul li {
+    margin-top:10px;
+}
+
+#Summmary {
+    margin-top: 75px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+} 
+
+#Skill {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 175px;
+    margin-top:15px;
+    
+}
+#Skill div ul li {
+    color :black;
+    margin-bottom: 10px;
+}
+
+
